@@ -12,7 +12,9 @@ body {
   background-color: #030712;
   color: #f9fafb;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
@@ -27,4 +29,19 @@ html {
 
 section {
   scroll-margin-top: 80px;
+}
+
+@layer components {
+  .glass-effect {
+    background: rgba(17, 24, 39, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(55, 65, 81, 0.5);
+  }
+  
+  .gradient-border {
+    position: relative;
+    background: linear-gradient(#111827, #111827) padding-box,
+                linear-gradient(135deg, #60a5fa, #1e3a8a) border-box;
+    border: 1px solid transparent;
+  }
 }
