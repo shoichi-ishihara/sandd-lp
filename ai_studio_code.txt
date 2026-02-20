@@ -1,0 +1,27 @@
+{
+  "id": "dark-executive",
+  "name": "Midnight Board",
+  "description": "Sleek, sophisticated navy and charcoal for executive services.",
+  "layoutType": "grid",
+  "colors": {
+    "primary": "#1e3a8a",
+    "secondary": "#111827",
+    "background": "#030712",
+    "surface": "#111827",
+    "textPrimary": "#f9fafb",
+    "textSecondary": "#9ca3af",
+    "accent": "#60a5fa",
+    "border": "#374151"
+  },
+  "typography": {
+    "headingFont": "'Inter', sans-serif",
+    "bodyFont": "'Inter', sans-serif",
+    "baseSize": "16px"
+  },
+  "components": {
+    "radius": "6px",
+    "shadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1)",
+    "borderWidth": "1px",
+    "buttonPadding": "12px 24px"
+  }
+}
